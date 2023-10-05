@@ -16,7 +16,7 @@ export const Checkbox = ({
   onChange,
 }: CheckboxProps) => {
   return (
-    <div className="flex h-12 flex-row items-center justify-center space-x-2">
+    <div className="flex h-12 w-28 flex-row items-center space-x-2">
       <input
         id={id}
         name={name}

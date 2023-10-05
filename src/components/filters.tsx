@@ -30,7 +30,7 @@ export const Filters = ({ label, listClassName }: FiltersProps) => {
     <div className="flex h-full flex-col items-center px-0 pb-10 md:space-y-8 md:px-4 md:pb-12 xl:px-0">
       <Heading>{label}</Heading>
 
-      <ul className={clsx("flex", listClassName)}>
+      <ul className={clsx("flex list-none", listClassName)}>
         <li className="w-full px-2">
           <Checkbox
             id={`${label}-showAll`}
